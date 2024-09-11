@@ -8,19 +8,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>O prémio maravilhosa</title>
   <meta name="theme-color" content="#00529a">
-  <script src="jquery.min.js"></script>
-  <link rel="stylesheet" href="bootstrap.min.css">
-  <script defer="" src="bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.min.css">
-  <link rel="stylesheet" type="text/css" href="survey.min.css">
-  <link rel="stylesheet" type="text/css" href="box.min.css">
+  <script src="./assets/js/jquery.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <script defer="" src="./assets/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/survey.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/box.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/comments.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/sur.min.css">
   <script type="text/javascript">var portal = 'it';
     var theme = '3-Samsung_S10';
     var template = 'surbox';
     var brand_country = 'Spain';
     var dayNames = Array("Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado");
     var monthNames = new Array("Janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro");
-    var img_regalo = "img-2.png";
+    var img_regalo = "./assets/img/img-2.png";
     var minutos_y = "minutos e ";
     var segundos = "segundos ";
     var url_f = "";
@@ -29,27 +31,39 @@
       keyboard: false
     };
     var adS = ["bG9jYWwucHJlbG9hZGVycy5jb20=", "bG9jYWwucHJlbG9hZGVycy5jb20="];</script>
-  <script defer="" src="p.min.js"></script>
+  <script defer="" src="./assets/js/p.min.js"></script>
   <style type="text/css">
     .content {
       background: #f2f2f2;
     }
 
     body.with_background {
-      background: url("img-1.png");
+      background: url("./assets/img/img-1.jpg");
     }
 
     @media (max-width: 800px) {
       body.with_background {
-        background: url("img-1.png");
+        background: url("./assets/img/img-1.jpg");
       }
     }
 
     .text-primary {
       color: #bc42a4;
     }
+
+    .principal_bg {
+      background-image: url("data:image/png;base64,");
+    }
+
+    .survey_button {
+      background-color: #ed9220;
+    }
+
+    .boxes {
+      background-image: url('./assets/img/img-1.jpg');
+    }
   </style>
-  <link rel="stylesheet" type="text/css" href="sur.min.css">
+
   <!--Facebook Pixel Code-->
   <script>
     !function (f, b, e, v, n, t, s) {
@@ -87,8 +101,8 @@
   </div>
   <div id="p_body_content">
     <div class="top-header" style="background: #232f3e; padding: 12px 10px;">
-      <img src="menu-top.png" alt="" style="margin-top: 3px;">
-      <img src="cart.png" alt="" style="float: right;">
+      <img src="./assets/img/menu-top.png" alt="" style="margin-top: 3px;">
+      <img src="./assets/img/cart.png" alt="" style="float: right;">
     </div>
     <div style="display: flex; padding: 10px; background: #37475A;">
       <div class="header_flex_item">
@@ -115,13 +129,8 @@
           novo Iphone 11 Pro!
         </p>
         <div class="caja_premio" style="max-width: 100%; margin: 0 auto;">
-          <style type="text/css">
-            .principal_bg {
-              background-image: url("data:image/png;base64,");
-            }
-          </style>
           <div class="principal_bg">
-            <img class="img-principal principal_efect" src="princ.png"
+            <img class="img-principal principal_efect" src="./assets/img/princ.png"
               style="max-width: 300px;margin: 0px auto;display: block;width: 100%;cursor:pointer;">
           </div>
         </div>
@@ -205,12 +214,6 @@
             </div>
           </div>
         </div>
-
-        <style type="text/css">
-          .survey_button {
-            background-color: #ed9220;
-          }
-        </style>
       </div>
       <div class="main-content" id="content2">
         <h2 style="text-align:center">
@@ -233,181 +236,177 @@
       </div>
       <div class="main-content" id="content3">
         <script type="text/javascript">var box_ini = false;</script>
-        <style type="text/css">
-          .boxes {
-            background-image: url(assets/img-1.png);
-          }
-        </style>
         <div id="boxes" class="boxes">
           <div class="div_img_gift">
-            <img class="img_gift box-gift" src="img-2.png">
+            <img class="img_gift box-gift" src="./assets/img/img-2.png">
           </div>
           <div id="0" class="try temblor">
             <div class="caja_tapa">
-              <img class="box-01" src="box-top.png">
+              <img class="box-01" src="./assets/img/box-top.png">
             </div>
             <div class="caja_trasera">
-              <img class="box-03" src="box-ins.png">
+              <img class="box-03" src="./assets/img/box-ins.png">
             </div>
             <div class="caja_gift">
-              <img class="box-04" src="phone-box.png">
+              <img class="box-04" src="./assets/img/phone-box.png">
             </div>
             <div class="caja">
-              <img class="box-02" src="box-bottom.png">
+              <img class="box-02" src="./assets/img/box-bottom.png">
             </div>
           </div>
           <div id="1" class="try temblor">
             <div class="caja_tapa">
-              <img class="box-01" src="box-top.png">
+              <img class="box-01" src="./assets/img/box-top.png
+              ">
             </div>
             <div class="caja_trasera">
-              <img class="box-03" src="box-ins.png">
+              <img class="box-03" src="./assets/img/box-ins.png">
             </div>
             <div class="caja_gift">
-              <img class="box-04" src="phone-box.png">
+              <img class="box-04" src="./assets/img/phone-box.png">
             </div>
             <div class="caja">
-              <img class="box-02" src="box-bottom.png">
+              <img class="box-02" src="./assets/img/box-bottom.png">
             </div>
           </div>
           <div id="2" class="try temblor">
             <div class="caja_tapa">
-              <img class="box-01" src="box-top.png">
+              <img class="box-01" src="./assets/img/box-top.png">
             </div>
             <div class="caja_trasera">
-              <img class="box-03" src="box-ins.png">
+              <img class="box-03" src="./assets/img/box-ins.png">
             </div>
             <div class="caja_gift">
-              <img class="box-04" src="phone-box.png">
+              <img class="box-04" src="./assets/img/phone-box.png">
             </div>
             <div class="caja">
-              <img class="box-02" src="box-bottom.png">
+              <img class="box-02" src="./assets/img/box-bottom.png">
             </div>
           </div>
           <div id="3" class="try temblor">
             <div class="caja_tapa">
-              <img class="box-01" src="box-top.png">
+              <img class="box-01" src="./assets/img/box-top.png">
             </div>
             <div class="caja_trasera">
-              <img class="box-03" src="box-ins.png">
+              <img class="box-03" src="./assets/img/box-ins.png">
             </div>
             <div class="caja_gift">
-              <img class="box-04" src="phone-box.png">
+              <img class="box-04" src="./assets/img/phone-box.png">
             </div>
             <div class="caja">
-              <img class="box-02" src="box-bottom.png">
+              <img class="box-02" src="./assets/img/box-bottom.png">
             </div>
           </div>
           <div id="4" class="try temblor">
             <div class="caja_tapa">
-              <img class="box-01" src="box-top.png">
+              <img class="box-01" src="./assets/img/box-top.png">
             </div>
             <div class="caja_trasera">
-              <img class="box-03" src="box-ins.png">
+              <img class="box-03" src="./assets/img/box-ins.png">
             </div>
             <div class="caja_gift">
-              <img class="box-04" src="phone-box.png">
+              <img class="box-04" src="./assets/img/phone-box.png">
             </div>
             <div class="caja">
-              <img class="box-02" src="box-bottom.png">
+              <img class="box-02" src="./assets/img/box-bottom.png">
             </div>
           </div>
           <div id="5" class="try temblor">
             <div class="caja_tapa">
-              <img class="box-01" src="box-top.png">
+              <img class="box-01" src="./assets/img/box-top.png">
             </div>
             <div class="caja_trasera">
-              <img class="box-03" src="box-ins.png">
+              <img class="box-03" src="./assets/img/box-ins.png">
             </div>
             <div class="caja_gift">
-              <img class="box-04" src="phone-box.png">
+              <img class="box-04" src="./assets/img/phone-box.png">
             </div>
             <div class="caja">
-              <img class="box-02" src="box-bottom.png">
+              <img class="box-02" src="./assets/img/box-bottom.png">
             </div>
           </div>
           <div id="6" class="try temblor">
             <div class="caja_tapa">
-              <img class="box-01" src="box-top.png">
+              <img class="box-01" src="./assets/img/box-top.png">
             </div>
             <div class="caja_trasera">
-              <img class="box-03" src="box-ins.png">
+              <img class="box-03" src="./assets/img/box-ins.png">
             </div>
             <div class="caja_gift">
-              <img class="box-04" src="phone-box.png">
+              <img class="box-04" src="./assets/img/phone-box.png">
             </div>
             <div class="caja">
-              <img class="box-02" src="box-bottom.png">
+              <img class="box-02" src="./assets/img/box-bottom.png">
             </div>
           </div>
           <div id="7" class="try temblor">
             <div class="caja_tapa">
-              <img class="box-01" src="box-top.png">
+              <img class="box-01" src="./assets/img/box-top.png">
             </div>
             <div class="caja_trasera">
-              <img class="box-03" src="box-ins.png">
+              <img class="box-03" src="./assets/img/box-ins.png">
             </div>
             <div class="caja_gift">
-              <img class="box-04" src="phone-box.png">
+              <img class="box-04" src="./assets/img/phone-box.png">
             </div>
             <div class="caja">
-              <img class="box-02" src="box-bottom.png">
+              <img class="box-02" src="./assets/img/box-bottom.png">
             </div>
           </div>
           <div id="8" class="try temblor">
             <div class="caja_tapa">
-              <img class="box-01" src="box-top.png">
+              <img class="box-01" src="./assets/img/box-top.png">
             </div>
             <div class="caja_trasera">
-              <img class="box-03" src="box-ins.png">
+              <img class="box-03" src="./assets/img/box-ins.png">
             </div>
             <div class="caja_gift">
-              <img class="box-04" src="phone-box.png">
+              <img class="box-04" src="./assets/img/phone-box.png">
             </div>
             <div class="caja">
-              <img class="box-02" src="box-bottom.png">
+              <img class="box-02" src="./assets/img/box-bottom.png">
             </div>
           </div>
           <div id="9" class="try temblor">
             <div class="caja_tapa">
-              <img class="box-01" src="box-top.png">
+              <img class="box-01" src="./assets/img/box-top.png">
             </div>
             <div class="caja_trasera">
-              <img class="box-03" src="box-ins.png">
+              <img class="box-03" src="./assets/img/box-ins.png">
             </div>
             <div class="caja_gift">
-              <img class="box-04" src="phone-box.png">
+              <img class="box-04" src="./assets/img/phone-box.png">
             </div>
             <div class="caja">
-              <img class="box-02" src="box-bottom.png">
+              <img class="box-02" src="./assets/img/box-bottom.png">
             </div>
           </div>
           <div id="10" class="try temblor">
             <div class="caja_tapa">
-              <img class="box-01" src="box-top.png">
+              <img class="box-01" src="./assets/img/box-top.png">
             </div>
             <div class="caja_trasera">
-              <img class="box-03" src="box-ins.png">
+              <img class="box-03" src="./assets/img/box-ins.png">
             </div>
             <div class="caja_gift">
-              <img class="box-04" src="phone-box.png">
+              <img class="box-04" src="./assets/img/phone-box.png">
             </div>
             <div class="caja">
-              <img class="box-02" src="box-bottom.png">
+              <img class="box-02" src="./assets/img/box-bottom.png">
             </div>
           </div>
           <div id="11" class="try temblor">
             <div class="caja_tapa">
-              <img class="box-01" src="box-top.png">
+              <img class="box-01" src="./assets/img/box-top.png">
             </div>
             <div class="caja_trasera">
-              <img class="box-03" src="box-ins.png">
+              <img class="box-03" src="./assets/img/box-ins.png">
             </div>
             <div class="caja_gift">
-              <img class="box-04" src="phone-box.png">
+              <img class="box-04" src="./assets/img/phone-box.png">
             </div>
             <div class="caja">
-              <img class="box-02" src="box-bottom.png">
+              <img class="box-02" src="./assets/img/box-bottom.png">
             </div>
           </div>
         </div>
@@ -415,7 +414,7 @@
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-body">
-                <img class="temblor_inf box-00" src="box-full.png">
+                <img class="temblor_inf box-00" src="./assets/img/box-full.png">
                 <h2>Parabéns, jé certificamos as sua respostadas</h2>
                 <p>
                   Hoje dia
@@ -450,7 +449,7 @@
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-body">
-                <img class="box-gift" src="img-2.png">
+                <img class="box-gift" src="./assets/img/img-2.png">
                 <h2>O senhor conseguiu!</h2>
                 <p> ***As regras***</p>
                 <p>Parabéns! O senhor ganhou um iPhone 11 Pro！</p>
@@ -469,10 +468,9 @@
         </div>
       </div>
       <div class="main-content">
-        <link rel="stylesheet" type="text/css" href="comments.min.css">
         <div class="comments_face">
           <div class="comments">
-            <p style="margin:0;padding:0;float:left;display:block;width:50%">
+            <p style="margin:0;padding:0;display:block;width:50%">
               <span style="color:#3b5998">
                 Mais opções
               </span>
@@ -480,15 +478,15 @@
           </div>
           <div class="comments" id="comment0" style="display:block">
             <div class="profile">
-              <img src="1.gif">
+              <img src="./assets/img/1.gif">
             </div>
             <div class="comment-content">
               <p class="name">Inês</p>
-              <p>Eu ganhei nada</p>
+              <p>Eu ganhei nada<br><br></p>
             </div>
             <div class="comment-status">
               <span>Curte·comente
-                <img src="3.jpg" width="15px" height="15px">
+                <img src="./assets/img/3.jpg" width="15px" height="15px">
                 29.
               </span>
               <small>
@@ -498,15 +496,15 @@
           </div>
           <div class="comments" id="comment1" style="display:block">
             <div class="profile">
-              <img src="4.jpg">
+              <img src="./assets/img/4.jpg">
             </div>
             <div class="comment-content">
               <p class="name">FernandoPessoa</p>
-              <p>Eu gostei essas promoções</p>
+              <p>Eu gostei essas promoções<br><br><br></p>
             </div>
             <div class="comment-status">
               <span>Curte·comente
-                <img src="like.png" width="15px" height="15px">
+                <img src="./assets/img/like.png" width="15px" height="15px">
                 9.
               </span>
               <small>
@@ -514,9 +512,9 @@
               </small>
             </div>
           </div>
-          <div class="comments" id="comment1" style="display:block">
+          <div class="comments" id="comment2" style="display:block">
             <div class="profile">
-              <img src="5.jpg">
+              <img src="./assets/img/5.jpg">
             </div>
             <div class="comment-content">
               <p class="name">Maria</p>
@@ -524,7 +522,7 @@
             </div>
             <div class="comment-status">
               <span>Curte·comente
-                <img src="like.png" width="15px" height="15px">
+                <img src="./assets/img/like.png" width="15px" height="15px">
                 22.
               </span>
               <small>
@@ -532,18 +530,18 @@
               </small>
             </div>
           </div>
-          <div class="comments" id="comment2" style="display:block">
+          <div class="comments" id="comment3" style="display:block">
             <div class="profile">
-              <img src="6.jpg">
+              <img src="./assets/img/6.jpg">
             </div>
             <div class="comment-content">
               <p class="name">Lucas</p>
               <p>Eu achava que era uma brincadeira, mas meu iPhone 11 Pro do
-                Apple chegou hoje de manhã</p>
+                Apple chegou hoje de manhã<br><br></p>
             </div>
             <div class="comment-status">
               <span>Curte·comente
-                <img src="like.png" width="15px" height="15px">
+                <img src="./assets/img/like.png" width="15px" height="15px">
                 36.
               </span>
               <small>
@@ -551,9 +549,9 @@
               </small>
             </div>
           </div>
-          <div class="comments" id="comment3" style="display:block">
+          <div class="comments" id="comment4" style="display:block">
             <div class="profile">
-              <img src="2.gif">
+              <img src="./assets/img/2.gif">
             </div>
             <div class="comment-content">
               <p class="name">Mariana</p>
@@ -562,7 +560,7 @@
             </div>
             <div class="comment-status">
               <span>Curte·comente
-                <img src="like.png" width="15px" height="15px">
+                <img src="./assets/img/like.png" width="15px" height="15px">
                 31.
               </span>
               <small>
@@ -570,17 +568,17 @@
               </small>
             </div>
           </div>
-          <div class="comments" id="comment4" style="display:block">
+          <div class="comments" id="comment5" style="display:block">
             <div class="profile">
-              <img src="7.jpg">
+              <img src="./assets/img/7.jpg">
             </div>
             <div class="comment-content">
               <p class="name">Rafael</p>
-              <p>É possível pegar o meu iPhone 11 Pro do Apple hoje？Obrigado</p>
+              <p>É possível pegar o meu iPhone 11 Pro do Apple hoje？Obrigado<br><br></p>
             </div>
             <div class="comment-status">
               <span>Curte·comente
-                <img src="like.png" width="15px" height="15px">
+                <img src="./assets/img/like.png" width="15px" height="15px">
                 6.
               </span>
               <small>
@@ -588,9 +586,9 @@
               </small>
             </div>
           </div>
-          <div class="comments" id="comment5" style="display:block">
+          <div class="comments" id="comment6" style="display:block">
             <div class="profile">
-              <img src="8.jpg">
+              <img src="./assets/img/8.jpg">
             </div>
             <div class="comment-content">
               <p class="name">Francisco</p>
@@ -599,7 +597,7 @@
             </div>
             <div class="comment-status">
               <span>Curte·comente
-                <img src="like.png" width="15px" height="15px">
+                <img src="./assets/img/like.png" width="15px" height="15px">
                 15
               </span>
               <small>
@@ -607,17 +605,17 @@
               </small>
             </div>
           </div>
-          <div class="comments" id="comment5" style="display:block">
+          <div class="comments" id="comment7" style="display:block">
             <div class="profile">
-              <img src="4.jpg">
+              <img src="./assets/img/4.jpg">
             </div>
             <div class="comment-content">
               <p class="name">Fernando</p>
-              <p>Existe algumas outras pesquisas ？</p>
+              <p>Existe algumas outras pesquisas ？<br><br><br></p>
             </div>
             <div class="comment-status">
               <span>Curte·comente
-                <img src="like.png" width="15px" height="15px">
+                <img src="./assets/img/like.png" width="15px" height="15px">
                 39
               </span>
               <small>
@@ -625,9 +623,9 @@
               </small>
             </div>
           </div>
-          <div class="comments" id="comment6" style="display:block">
+          <div class="comments" id="comment8" style="display:block">
             <div class="profile">
-              <img src="10.jpg">
+              <img src="./assets/img/10.jpg">
             </div>
             <div class="comment-content">
               <p class="name">Heloísa</p>
@@ -635,7 +633,7 @@
             </div>
             <div class="comment-status">
               <span>Curte·comente
-                <img src="like.png" width="15px" height="15px">
+                <img src="./assets/img/like.png" width="15px" height="15px">
                 23
               </span>
               <small>
@@ -643,9 +641,9 @@
               </small>
             </div>
           </div>
-          <div class="comments" id="comment7" style="display:block">
+          <div class="comments" id="comment9" style="display:block">
             <div class="profile">
-              <img src="9.jpg">
+              <img src="./assets/img/9.jpg">
             </div>
             <div class="comment-content">
               <p class="name">Gustavo</p>
@@ -656,7 +654,7 @@
             <div class="comment-status">
               <span>
                 Curte·comente
-                <img src="like.png" width="15px" height="15px">
+                <img src="./assets/img/like.png" width="15px" height="15px">
                 30
               </span>
               <small>
