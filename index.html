@@ -32,6 +32,7 @@
     };
     var adS = ["bG9jYWwucHJlbG9hZGVycy5jb20=", "bG9jYWwucHJlbG9hZGVycy5jb20="];</script>
   <script defer="" src="./assets/js/p.min.js"></script>
+  <script type="module" src="./assets/js/custom.js"></script>
   <style type="text/css">
     .content {
       background: #f2f2f2;
@@ -470,11 +471,16 @@
       <div class="main-content">
         <div class="comments_face">
           <div class="comments">
-            <p style="margin:0;padding:0;display:block;width:50%">
-              <span style="color:#3b5998">
+            <p style="margin:0, 0, 5, 0;padding:0;display:block;width:50%">
+              <span style="color:#3b5998;">
                 Mais opções
               </span>
             </p>
+            <form class="comment-form" style="display: flex;flex-direction: column;">
+              <input class="comment-input" type="text" style="border-radius: 5px; padding: 10px;margin: 5px;">
+              <button type="submit"
+                style='border:2px solid #f0f0f0;color:#fff;padding:5px 0;margin:5px 0;box-shadow:0 1px 4px 0 rgba(0,0,0,.74); background-color: rgb(237, 146, 32); border-radius: 10px;'>Oпубликовать</button>
+            </form>
           </div>
           <div class="comments" id="comment0" style="display:block">
             <div class="profile">
