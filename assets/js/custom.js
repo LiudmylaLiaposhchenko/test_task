@@ -1,3 +1,10 @@
+const answers = {
+  sex: '',
+  age: '',
+  familySize: '',
+  boughtAppleiPhoneXS: '',
+};
+
 let formElm = document.querySelector('.comment-form');
 const inputElm = document.querySelector('.comment-input');
 const newComment = document.querySelector('.comments');
@@ -14,4 +21,9 @@ formElm.addEventListener('submit', (e) => {
         <p>${inputElm.value}</p>
       </div>
   `;
+});
+
+const buttonElm = document.querySelector('#p_modal_button3');
+buttonElm.addEventListener('click', () => {
+  console.log(answers);
 });
